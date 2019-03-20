@@ -49,12 +49,7 @@ const nestedDeep = [
   ]
 ];
 
-
-// console.log("Empty input => ", flatten());
-// console.log("Null input => ", flatten(null));
-// console.log("Undefined input => ", flatten(undefined));
-// console.log("Object input => ", flatten({}));
-// console.log("None array input => ", flatten(1));
+// Uncomment a test to run the specific test
 
 // console.log("[[1,2,[3]],4] => ", flatten([[1,2,[3]],4]));
 // console.log("[1,2,[3],4] => ", flatten([1,2,[3],4]));
@@ -72,3 +67,9 @@ const nestedDeep = [
 // const longArray = new Array(1000000).fill(nestedDeep);
 // const longArrayOflongArray = new Array(1000000).fill(longArray);
 // console.log("longArrayOflongArray => ", flatten(longArrayOflongArray));
+
+// console.log("Empty input => ", flatten());
+// console.log("Null input => ", flatten(null));
+// console.log("Undefined input => ", flatten(undefined));
+// console.log("Object input => ", flatten({}));
+// console.log("None array input => ", flatten(1));
